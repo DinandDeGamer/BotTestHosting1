@@ -1,0 +1,12 @@
+module.exports.run = async (client, message, args) => {
+
+    return message.channel.send("Hoi");
+
+}
+
+module.exports.help = {
+
+    name: "hallo",
+    category: "general"
+
+}
